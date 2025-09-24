@@ -1,4 +1,4 @@
-name: RDP22
+name: RDP224
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
       - name: Create RDP User
         run: |
           $username = 'rizky'
-          $password = 'Rizky#2025'
+          $password = 'Cubanz@2025!'
 
           # Convert password to SecureString
           $securePass = ConvertTo-SecureString $password -AsPlainText -Force
